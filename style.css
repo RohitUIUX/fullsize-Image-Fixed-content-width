@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* this is to Hide Unwanted scrollbar */
+}
+
+h1{
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 800;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.content{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.full-width{
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    height: 600px;/* Height added Optional Not Required */
+    
+}
+
+/* Optional CSS for Styling Purpose */
+
+.full-width img{
+    object-fit: none;
+}
